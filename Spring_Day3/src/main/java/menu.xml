@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+            
+	<bean class="Spring_Day3.Menu" id="menu">
+		<property name="menuId" value="1"></property>
+		<property name="catagory" value="non veg"></property>
+		<property name="Name" value="sitara"></property>
+		<property name="item" ref="item"></property>
+	</bean>
+
+	<bean class="Spring_Day3.Item" id="item">
+		<property name="itemId" value="2"></property>
+		<property name="itemName" value="chicken65"></property>
+		<property name="itemCost" value="300"></property>
+		<property name="Quantity" value="full"></property>
+	</bean>
+
+
+</beans>
