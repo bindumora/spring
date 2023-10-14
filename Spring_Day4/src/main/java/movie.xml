@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean class="Spring_Day4.Movie" id="movie">
+
+		<constructor-arg name="movieName" value="baby"></constructor-arg>
+		<constructor-arg name="movieBudget" value="1000000"></constructor-arg>
+
+		<constructor-arg name="movieDuration" value="2.30"></constructor-arg>
+
+		<constructor-arg name="movieHero1" value="anand"></constructor-arg>
+
+		<constructor-arg name="movieHero2" value="viraj"></constructor-arg>
+
+		<constructor-arg name="movieHero3" value="kiran"></constructor-arg>
+
+		<constructor-arg name="movieHeroine" value="vaisshnavi"></constructor-arg>
+
+
+	</bean>
+</beans>
