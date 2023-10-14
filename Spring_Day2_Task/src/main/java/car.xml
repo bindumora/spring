@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<bean class="Spring_Day2_Task.BMW" id="bcar">
+		<property name="id" value="1"></property>
+		<property name="name" value="bmw"></property>
+		<property name="price" value="10000000">
+		</property>
+		<property name="model" value="X5"></property>
+	</bean>
+	<bean class="Spring_Day2_Task.Audi" id="acar">
+		<property name="id" value="2"></property>
+		<property name="name" value="audi"></property>
+		<property name="price" value="30000000">
+		</property>
+		<property name="model" value="A4"></property>
+	</bean>
+
+
+</beans>
